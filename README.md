@@ -1,75 +1,79 @@
-# 🚛 TRANS-ALMAX SAC - Sistema Web de Gestión Logística y Cotizaciones
+# 🚛 TRANS ALMAX SAC
+
+## Plataforma Web de Transporte y Logística
+
+🌐 **Demo Online:**
+https://lidenacevedo.github.io/Proyecto-Final-Programacion-Web---TRANS-ALMAX-SAC/
+
+---
 
 ## 📌 Descripción del Proyecto
 
-TRANS-ALMAX SAC es una plataforma web desarrollada para una empresa de transporte y logística orientada a la gestión de servicios de carga, distribución y cotizaciones en línea.
+**TRANS ALMAX SAC** es una plataforma web desarrollada para una empresa dedicada al transporte de carga y soluciones logísticas.
 
-El sistema permite a los clientes conocer los servicios de la empresa, visualizar la cobertura nacional, revisar la flota disponible y solicitar cotizaciones mediante un formulario profesional conectado a un servidor Node.js.
+El proyecto tiene como finalidad mejorar la presencia digital de la empresa mediante una interfaz moderna, dinámica y adaptable, permitiendo a los usuarios conocer los servicios ofrecidos, visualizar la flota vehicular, revisar zonas de cobertura y realizar solicitudes de cotización.
 
-La información registrada es almacenada automáticamente en una base de datos JSON y posteriormente administrada desde un panel administrativo interno.
-
----
-
-# 🎯 Objetivos del Proyecto
-
-## Objetivo General
-
-Desarrollar una plataforma web moderna y funcional para la gestión de servicios logísticos y cotizaciones de transporte.
-
-## Objetivos Específicos
-
-* Implementar un sitio web corporativo multipágina.
-* Permitir el registro de solicitudes de cotización.
-* Almacenar información utilizando Node.js y archivos JSON.
-* Crear un panel administrativo para la gestión de solicitudes.
-* Aplicar tecnologías web modernas y programación del lado del cliente y servidor.
+El desarrollo aplica conceptos fundamentales del curso de **Programación Web**, utilizando tecnologías frontend y buenas prácticas de organización del código.
 
 ---
 
-# 🛠 Tecnologías Utilizadas
+# 🎯 Objetivo General
+
+Diseñar e implementar un sitio web profesional para **TRANS ALMAX SAC**, integrando diseño responsive, interacción con el usuario y funcionalidades dinámicas mediante HTML, CSS y JavaScript.
+
+---
+
+# 🎯 Objetivos Específicos
+
+* Crear una interfaz web moderna para la empresa.
+* Mostrar los servicios de transporte y logística.
+* Presentar la flota vehicular disponible.
+* Implementar formularios de contacto y cotización.
+* Aplicar animaciones e interacción con JavaScript.
+* Desarrollar una estructura organizada y escalable.
+* Publicar el proyecto mediante GitHub Pages.
+
+---
+
+# 🛠️ Tecnologías Utilizadas
 
 ## Frontend
 
 * HTML5
 * CSS3
-* JavaScript 
-* Font Awesome
+* JavaScript ES6
 
-## Backend
+## Herramientas
 
-* Node.js
-* Módulo HTTP
-* Sistema de archivos (FS)
+* Visual Studio Code
+* Git
+* GitHub
+* GitHub Pages
 
-## Almacenamiento
+## Técnicas Implementadas
 
-* Archivo JSON como base de datos local.
+* Diseño responsive.
+* Manipulación del DOM.
+* Eventos JavaScript.
+* Intersection Observer.
+* Contadores dinámicos.
+* Animaciones CSS.
+* Organización modular de archivos.
 
 ---
 
-# 📁 Estructura del Proyecto
+# 📂 Estructura del Proyecto
 
 ```text
-PF - TRANS - ALMAX - SAC
-│
-├── servidor.js
-├── index.html
-├── admin.html
+TRANS-ALMAX-SAC
+
 │
 ├── assets
 │   ├── css
-│   │   ├── style.css
-│   │   ├── responsive.css
-│   │   ├── animations.css
-│   │   └── variables.css
-│   │
 │   ├── js
-│   │   ├── app.js
-│   │   ├── menu.js
-│   │   ├── cotizador.js
-│   │   └── admin.js
-│   │
-│   └── images
+│   ├── images
+│   ├── audio
+│   └── videos
 │
 ├── pages
 │   ├── nosotros.html
@@ -79,177 +83,151 @@ PF - TRANS - ALMAX - SAC
 │   ├── cotizacion.html
 │   └── contacto.html
 │
-└── database
-    └── cotizaciones.json
+├── database
+│   └── cotizaciones.json
+│
+├── index.html
+├── servidor.js
+└── README.md
 ```
 
 ---
 
-# 🌐 Módulos del Sistema
+# 🚚 Módulos Principales
 
-## Página Principal (index.html)
+## 🏠 Página Principal
 
-Presenta la información principal de la empresa, incluyendo:
+Incluye:
 
-* Presentación corporativa.
+* Presentación empresarial.
+* Banner principal.
+* Estadísticas dinámicas.
 * Servicios destacados.
-* Cobertura nacional.
-* Información de contacto.
-* Acceso rápido a cotizaciones.
+* Clientes asociados.
+* Accesos rápidos.
 
 ---
 
-## Nosotros
+## 🚛 Nuestra Flota
 
-Describe la misión, visión y valores empresariales de TRANS-ALMAX SAC.
+Permite mostrar:
 
----
-
-## Servicios
-
-Incluye los principales servicios ofrecidos por la empresa:
-
-* Transporte de carga pesada.
-* Carga liviana express.
-* Distribución empresarial.
-* Almacenamiento logístico.
-* Transporte nacional.
+* Vehículos disponibles.
+* Características principales.
+* Capacidad logística.
+* Tarjetas animadas con información de unidades.
 
 ---
 
-## Flota
+## 📦 Servicios
 
-Presenta los recursos logísticos disponibles:
+Presenta las soluciones:
 
-* Camiones de carga pesada.
-* Camiones medianos.
-* Unidades express.
-* Equipamiento logístico especializado.
+* Transporte de carga.
+* Distribución logística.
+* Almacenamiento.
+* Transporte especializado.
 
 ---
 
-## Cobertura
+## 🗺️ Cobertura
 
-Muestra las operaciones realizadas en:
+Muestra las zonas de atención:
 
 * Costa.
 * Sierra.
 * Selva.
-* Distribución nacional.
 
 ---
 
-## Cotización
+## 📝 Cotización
 
-Permite a los clientes registrar solicitudes de transporte mediante un formulario profesional.
-
-Información registrada:
-
-* Nombre del cliente.
-* Correo electrónico.
-* Teléfono.
-* Servicios solicitados.
-* Origen y destino.
-* Fecha requerida.
-* Peso aproximado.
-* Descripción de la carga.
+Incluye un formulario interactivo para recopilar información del cliente y generar solicitudes de servicio.
 
 ---
 
-## Contacto
+# ⚙️ Funcionalidades Implementadas
 
-Incluye múltiples canales de comunicación:
+✅ Diseño adaptable a dispositivos móviles.
 
-* WhatsApp directo.
-* Correo electrónico.
-* Ubicación.
-* Horario de atención.
-* Redes sociales.
-* Mapa de ubicación.
+✅ Menú responsive.
+
+✅ Slider principal.
+
+✅ Ventanas modales.
+
+✅ Animaciones visuales.
+
+✅ Efectos de desplazamiento.
+
+✅ Contadores dinámicos en Hero y Estadísticas.
+
+✅ Validaciones mediante JavaScript.
+
+✅ Formularios interactivos.
+
+✅ Organización del código por módulos.
 
 ---
 
-# ⚙ Funcionamiento del Sistema de Cotizaciones
+# 🚀 Ejecución Local
 
-1. El cliente completa el formulario de cotización.
-2. JavaScript valida la información ingresada.
-3. Los datos son enviados mediante Fetch API al servidor Node.js.
-4. El servidor procesa la solicitud.
-5. La información se almacena en el archivo:
+Para ejecutar el proyecto en entorno local:
+
+1. Clonar el repositorio.
+
+2. Abrir la carpeta en Visual Studio Code.
+
+3. Ejecutar con Live Server.
+
+4. Acceder mediante:
 
 ```text
-database/cotizaciones.json
-```
-
-6. Se genera automáticamente un código de seguimiento para cada solicitud.
-
-Ejemplo:
-
-```text
-COT-00001
-COT-00002
-COT-00003
+http://127.0.0.1:5501/
 ```
 
 ---
 
-# 📊 Panel Administrativo
+# 🌐 Despliegue
 
-El sistema incorpora un panel de administración que permite:
+El proyecto fue publicado utilizando:
 
-* Visualizar todas las cotizaciones registradas.
-* Consultar información del cliente.
-* Revisar servicios solicitados.
-* Ver rutas de transporte.
-* Eliminar solicitudes registradas.
-* Obtener estadísticas generales del sistema.
+**GitHub Pages**
+
+Permitiendo acceder al sistema desde cualquier navegador mediante una URL pública.
 
 ---
 
-# 🔐 Funcionalidades Implementadas
+# 📚 Aprendizajes del Proyecto
 
-* Diseño responsive.
-* Navegación multipágina.
-* Validaciones de formularios.
-* Almacenamiento en JSON.
-* Comunicación Frontend - Backend.
-* Panel administrativo.
-* Integración con WhatsApp.
-* Integración con redes sociales.
-* Gestión de múltiples servicios por cliente.
+Durante el desarrollo se aplicaron conocimientos de:
 
----
-
-# 📈 Resultados Obtenidos
-
-El proyecto logró implementar un sistema web funcional para el sector logístico, integrando tecnologías frontend y backend para automatizar el proceso de solicitud y administración de cotizaciones.
-
----
-
-# ✅ Conclusiones
-
-* Node.js permitió implementar un servidor ligero y eficiente.
-* El uso de JSON facilitó el almacenamiento de información sin necesidad de utilizar un gestor de bases de datos tradicional.
-* La integración entre frontend y backend permitió automatizar el registro y administración de cotizaciones.
-* El proyecto demuestra la aplicación práctica de tecnologías web modernas orientadas al sector logístico.
+* Estructura HTML.
+* Diseño web con CSS.
+* Programación JavaScript.
+* Gestión de archivos.
+* Control de versiones con Git.
+* Publicación de aplicaciones web.
 
 ---
 
 # 👨‍💻 Autor
 
-Proyecto desarrollado por:
-
 **Liden Acevedo Castro**
 
-Universidad Tecnológica del Perú - UTP
-
+Proyecto Final
 Curso: Programación Web
 
-Año: 2026
+---
+
+# ✅ Conclusión
+
+El desarrollo de **TRANS ALMAX SAC** permitió crear una solución web orientada al sector transporte y logística, integrando diseño, programación e interacción con el usuario.
+
+El proyecto representa la aplicación práctica de los conocimientos adquiridos durante el curso, logrando una plataforma moderna, funcional y publicada en Internet.
 
 
-## © Derechos Reservados
-© 2026 TRANS-ALMAX SAC. Todos los derechos reservados.
+
 
 
 ## REGISTRO NODE
@@ -268,45 +246,3 @@ http://localhost:5502/admin.html
 Prueba 🗑️
 
 
-
-
-
-
-
-
-
-
-Sí profe 🚛🔥, hoy avanzaste bastante en el proyecto de **TRANS-ALMAX SAC**:
-
-* ✅ Sitio multipágina completo.
-* ✅ Diseño modernizado de servicios, flota, cobertura, cotización y contacto.
-* ✅ Formulario profesional de cotizaciones.
-* ✅ Integración con Node.js.
-* ✅ Guardado en `cotizaciones.json`.
-* ✅ Panel administrador.
-* ✅ Eliminación de registros.
-* ✅ Soporte para múltiples servicios.
-* ✅ Integración con WhatsApp y redes sociales.
-* ✅ README técnico y guía para exposición.
-
-Para retomar mañana sin perder contexto, la mejor clave sería simplemente:
-
-## 🚛 **"PROFE TRANS ALMAX CONTINUAMOS"**
-
-Si quieres ser más específico según el punto donde continúes, puedes usar algo como:
-
-* **"PROFE TRANS ALMAX PANEL ADMIN"** → para seguir con el dashboard.
-* **"PROFE TRANS ALMAX EXPOSICIÓN"** → para preparar diapositivas y discurso.
-* **"PROFE TRANS ALMAX MEJORAS"** → para agregar nuevas funcionalidades.
-* **"PROFE TRANS ALMAX DESPLIEGUE"** → para publicarlo en internet.
-* **"PROFE TRANS ALMAX BASE DE DATOS SQL"** → para migrar de JSON a MySQL o SQL Server.
-
-Los siguientes pasos naturales del proyecto serían:
-
-1. 🔐 Login de administrador.
-2. 📊 Estados de cotización (Pendiente, En proceso, Finalizada).
-3. 🔎 Búsqueda y filtros en el panel.
-4. 📄 Exportar a PDF o Excel.
-5. ☁️ Publicación del proyecto en línea.
-
-Descansa bien profe. Mañana retomamos desde donde lo dejaste y seguimos llevando TRANS-ALMAX SAC a nivel empresarial. 🚛💻🔥
