@@ -1,0 +1,80 @@
+/* ==========================================
+   VARIABLES CORPORATIVAS
+   TRANS-ALMAX SAC
+========================================== */
+
+:root {
+
+
+    /* ==========================
+       COLORES PRINCIPALES
+    ========================== */
+
+    --primary-color: #003366;
+
+    --secondary-color: #f5b400;
+
+    --dark-color: #1a1a1a;
+
+    --light-color: #ffffff;
+
+    --gray-color: #f5f5f5;
+
+
+
+    /* ==========================
+       COLORES DE TEXTO
+    ========================== */
+
+    --text-color: #333333;
+
+    --text-light: #666666;
+
+
+
+    /* ==========================
+       TIPOGRAFÍA
+    ========================== */
+
+    --font-primary: 'Poppins', sans-serif;
+
+
+
+    /* ==========================
+       TAMAÑOS
+    ========================== */
+
+    --container-width: 1200px;
+
+
+
+    /* ==========================
+       ESPACIADOS
+    ========================== */
+
+    --section-padding: 80px;
+
+    --small-padding: 20px;
+
+
+
+    /* ==========================
+       BORDES Y SOMBRAS
+    ========================== */
+
+    --border-radius: 10px;
+
+    --box-shadow:
+    0 10px 30px rgba(0,0,0,0.10);
+
+
+
+    /* ==========================
+       TRANSICIONES
+    ========================== */
+
+    --transition: all 0.3s ease;
+
+
+}
+

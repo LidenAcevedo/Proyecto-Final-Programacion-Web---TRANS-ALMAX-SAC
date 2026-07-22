@@ -1,0 +1,84 @@
+[
+    {
+        "nombre": "rewerd",
+        "correo": "U23267938@UTP.EDU.PE",
+        "telefono": "967865323",
+        "servicio": "Carga pesada",
+        "origen": "piura",
+        "destino": "lima",
+        "fecha": "2026-07-20",
+        "peso": "30 toneladas",
+        "mensaje": "arroz",
+        "id": 2,
+        "codigo": "COT-00002",
+        "fechaRegistro": "14/7/2026, 8:17:06 p. m."
+    },
+    {
+        "nombre": "rewerd",
+        "correo": "U23267938@UTP.EDU.PE",
+        "telefono": "983839156",
+        "servicio": [
+            "Distribución empresarial"
+        ],
+        "origen": "lince",
+        "destino": "pucallpa",
+        "fecha": "2026-07-15",
+        "peso": "30 toneladas",
+        "mensaje": "carga pesada",
+        "fechaSolicitud": "14/7/2026, 9:24:35 p. m.",
+        "id": 3,
+        "codigo": "COT-00003",
+        "fechaRegistro": "14/7/2026, 9:24:35 p. m."
+    },
+    {
+        "nombre": "danilo",
+        "correo": "dani@gmail.com",
+        "telefono": "987245786",
+        "servicio": [
+            "Carga liviana"
+        ],
+        "origen": "tacna",
+        "destino": "tumbes",
+        "fecha": "2026-07-30",
+        "peso": "10 tn",
+        "mensaje": "fragil",
+        "fechaSolicitud": "14/7/2026, 9:58:56 p. m.",
+        "id": 4,
+        "codigoCotizacion": "COT-00004",
+        "fechaRegistro": "14/7/2026, 9:58:56 p. m."
+    },
+    {
+        "nombre": "gerard",
+        "correo": "gres@gmail.com",
+        "telefono": "989884744",
+        "servicio": [
+            "Carga liviana"
+        ],
+        "origen": "lima",
+        "destino": "tacna",
+        "fecha": "2026-07-22",
+        "peso": "15 toneladas",
+        "mensaje": "liquido",
+        "fechaSolicitud": "14/7/2026, 10:57:39 p. m.",
+        "id": 4,
+        "codigoCotizacion": "COT-00004",
+        "fechaRegistro": "14/7/2026, 10:57:39 p. m."
+    },
+    {
+        "nombre": "JORGE",
+        "correo": "JORGEPAS@GMAIL.COM",
+        "telefono": "978933674",
+        "servicio": [
+            "Carga pesada"
+        ],
+        "origen": "LIMA",
+        "destino": "HUANUCO",
+        "fecha": "2026-07-30",
+        "peso": "25 TONELADAS",
+        "mensaje": "TRANSPORTE DE MERCANCIA GENERAL",
+        "fechaSolicitud": "20/7/2026, 2:58:41 p. m.",
+        "id": 5,
+        "codigoCotizacion": "COT-00005",
+        "fechaRegistro": "20/7/2026, 2:58:41 p. m."
+    }
+]

@@ -1,0 +1,425 @@
+/*=========================================================
+            TRANS ALMAX SAC
+            ANIMACIONES
+=========================================================*/
+
+
+/*=========================================================
+                    ANIMACIONES GENERALES
+=========================================================*/
+
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+
+
+@keyframes slideUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+
+@keyframes slideLeft{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-40px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+
+
+@keyframes slideRight{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(40px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+
+
+/*=========================================================
+                    HERO
+=========================================================*/
+
+
+.hero-content{
+
+    animation:slideLeft 1s ease;
+
+}
+
+
+
+.hero-stats{
+
+    animation:slideRight 1s ease;
+
+}
+
+
+
+/*=========================================================
+                    TARJETAS
+=========================================================*/
+
+
+.service-card,
+.fleet-card,
+.process-card,
+.why-card,
+.testimonial-card,
+.client-logo{
+
+    animation:slideUp .8s ease;
+
+}
+
+
+
+/*=========================================================
+                    IMÁGENES
+=========================================================*/
+
+
+.about-image img,
+.gallery-item img{
+
+    transition:.5s ease;
+
+}
+
+
+
+/* EFECTO HOVER */
+
+.about-image img:hover,
+.gallery-item img:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/*=========================================================
+                    BOTONES
+=========================================================*/
+
+
+.btn-primary,
+.btn-secondary,
+.btn-header{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-header:hover{
+
+    letter-spacing:.5px;
+
+}
+
+
+
+/*=========================================================
+                    SCROLL SUAVE
+=========================================================*/
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+/* Animación al aparecer en pantalla */
+
+
+.service-card,
+.fleet-card,
+.process-card,
+.why-card,
+.testimonial-card{
+
+    opacity:0;
+
+    transform:translateY(30px);
+
+    transition:.6s ease;
+
+}
+
+
+
+.service-card.visible,
+.fleet-card.visible,
+.process-card.visible,
+.why-card.visible,
+.testimonial-card.visible{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/*=========================================================
+        HERO - ZOOM ANIMATION
+=========================================================*/
+
+@keyframes heroZoom {
+
+    0%{
+
+        opacity:0;
+
+        transform:scale(.75) translateY(40px);
+
+    }
+
+    60%{
+
+        opacity:1;
+
+        transform:scale(1.05) translateY(0);
+
+    }
+
+    100%{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+.hero-content h1{
+
+    animation:heroZoom 1.2s ease-out forwards;
+
+}
+
+.hero-content p{
+
+    opacity:0;
+
+    animation:heroZoom 1.4s ease-out .25s forwards;
+
+}
+
+.hero-buttons{
+
+    opacity:0;
+
+    animation:heroZoom 1.5s ease-out .45s forwards;
+
+}
+
+.hero-stats{
+
+    opacity:0;
+
+    animation:heroZoom 1.6s ease-out .65s forwards;
+
+}
+
+/*=========================================================
+        HERO PREMIUM ANIMATIONS
+=========================================================*/
+
+.hero-content{
+
+    animation: heroFadeLeft 1.2s ease forwards;
+
+}
+
+
+.hero-stats{
+
+    animation: heroFadeRight 1.2s ease forwards;
+
+}
+
+
+.hero-overlay{
+
+    animation: heroOverlayMove 12s infinite alternate;
+
+}
+
+
+/* Entrada izquierda */
+
+@keyframes heroFadeLeft{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-80px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+
+/* Entrada derecha */
+
+@keyframes heroFadeRight{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(80px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+
+/* Movimiento del fondo */
+
+@keyframes heroOverlayMove{
+
+    from{
+
+        opacity:.85;
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+
+/* Brillo botón principal */
+
+.btn-primary{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+.btn-primary::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:-120%;
+
+    width:80%;
+
+    height:100%;
+
+    background:rgba(255,255,255,.35);
+
+    transform:skewX(-25deg);
+
+    transition:.6s;
+
+}
+
+
+.btn-primary:hover::before{
+
+    left:130%;
+
+}

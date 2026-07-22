@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>
+Panel Administrador | TRANS-ALMAX SAC
+</title>
+
+
+<link rel="stylesheet" href="assets/css/variables.css">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link rel="stylesheet" href="assets/css/responsive.css">
+
+<link rel="stylesheet" href="assets/css/animations.css">
+
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+</head>
+
+
+
+<body>
+
+
+
+<header>
+
+
+<div class="container">
+
+
+<h1>
+TRANS-ALMAX SAC 🚛
+</h1>
+
+
+</div>
+
+
+</header>
+
+
+
+
+
+<section class="page-banner">
+
+
+<div class="container">
+
+
+<span class="subtitle">
+ADMINISTRACIÓN
+</span>
+
+
+<h2>
+Panel de Control Logístico
+</h2>
+
+
+<p>
+Gestión de solicitudes de transporte recibidas.
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="dashboard">
+
+
+<div class="container">
+
+
+
+<div class="dashboard-cards">
+
+
+
+<div class="dashboard-card">
+
+<i class="fa-solid fa-box"></i>
+
+<h3>
+Total Cotizaciones
+</h3>
+
+
+<span id="totalCotizaciones">
+0
+</span>
+
+
+</div>
+
+
+
+
+
+
+<div class="dashboard-card">
+
+<i class="fa-solid fa-truck"></i>
+
+<h3>
+Servicios Solicitados
+</h3>
+
+
+<span id="totalServicios">
+0
+</span>
+
+
+</div>
+
+
+
+
+
+
+<div class="dashboard-card">
+
+<i class="fa-solid fa-clock"></i>
+
+<h3>
+Estado
+</h3>
+
+
+<span>
+Pendiente
+</span>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section class="admin-table">
+
+<div class="container">
+
+
+<div class="admin-tools">
+
+
+<input 
+type="text"
+id="buscarCotizacion"
+placeholder="🔎 Buscar cliente..."
+>
+
+
+<button 
+id="btnActualizar"
+class="btn-primary">
+
+🔄 Actualizar
+
+</button>
+
+
+</div>
+
+
+
+
+
+<h2>
+📦 Solicitudes Registradas
+</h2>
+
+
+
+
+
+<div class="table-container">
+
+
+<table>
+
+
+<thead>
+
+
+<tr>
+
+<th>
+Código
+</th>
+
+
+<th>
+Cliente
+</th>
+
+
+<th>
+Servicio
+</th>
+
+
+<th>
+Ruta
+</th>
+
+
+<th>
+Fecha
+</th>
+
+
+<th>
+Estado
+</th>
+
+
+<th>
+Acción
+</th>
+
+
+</tr>
+
+
+</thead>
+
+
+
+
+<tbody id="tablaCotizaciones">
+
+
+</tbody>
+
+
+
+</table>
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+
+<div class="container">
+
+
+<p>
+© 2026 TRANS-ALMAX SAC | Panel Administrativo 🚛
+</p>
+
+
+</div>
+
+
+</footer>
+
+
+
+
+
+
+
+<script src="assets/js/admin.js"></script>
+
+
+</body>
+
+
+</html>
